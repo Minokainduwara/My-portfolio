@@ -247,7 +247,7 @@ $typedJson = htmlspecialchars(json_encode($portfolio['typed_texts']), ENT_QUOTES
     <div class="contact-links reveal">
       <a href="<?= htmlspecialchars($portfolio['github'])  ?>" class="contact-link" target="_blank">⌥ GitHub</a>
       <a href="<?= htmlspecialchars($portfolio['linkedin'])?>" class="contact-link" target="_blank">in LinkedIn</a>
-      <a href="<?= htmlspecialchars($portfolio['twitter']) ?>" class="contact-link" target="_blank">✦ Twitter / X</a>
+      <a href="<?= htmlspecialchars($portfolio['upwork']) ?>" class="contact-link" target="_blank">✦ Upwork</a>
       <a href="<?= htmlspecialchars($portfolio['resume'])  ?>" class="contact-link" target="_blank">📄 Resume</a>
     </div>
   </div>

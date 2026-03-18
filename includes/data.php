@@ -194,22 +194,29 @@ $portfolio = [
 
   'experience' => [
     [
-      'date'    => '2023 — Present',
-      'role'    => 'Senior AI/ML & Software Engineer',
-      'company' => 'Your Company Name',
-      'desc'    => 'Leading development of LLM-powered products and full-stack platforms. Built Flutter mobile apps with on-device ML, Next.js dashboards, and Spring Boot microservices serving 500K+ users.',
+      'date'    => '2026 — Present',
+      'role'    => 'Founder, AI/ML & Software Engineer',
+      'company' => 'Aurion',
+      'desc'    => 'Founder of Aurion and leading development of LLM-powered products and full-stack platforms. Built Flutter mobile apps with on-device ML, Next.js dashboards, and Spring Boot microservices serving 500K+ users.',
     ],
     [
-      'date'    => '2021 — 2023',
+      'date'    => '2024 — Present',
       'role'    => 'Full-Stack & Mobile Developer',
-      'company' => 'Previous Company',
+      'company' => 'Team Lazarus',
       'desc'    => 'Developed cross-platform apps in Flutter and React Native, RESTful backends in PHP and Java Spring Boot, and integrated Firebase for real-time features. Shipped 10+ production apps.',
     ],
     [
-      'date'    => '2019 — 2021',
-      'role'    => 'Software Engineer & Game Developer',
-      'company' => 'First Company',
+      'date'    => '2019 — Present',
+      'role'    => 'Software Engineer & Indie Game Developer',
+      'company' => 'Freelance',
       'desc'    => 'Built Unity and Unreal Engine games, embedded Arduino systems for IoT prototypes, and contributed to React front-ends and Python data pipelines.',
+    ],
+
+    [
+      'date'    => '2018 — 2020',
+      'role'    => 'Graphic Designer',
+      'company' => 'Ceylon Graphic Designers',
+      'desc'    => 'Work involved creating visual content for various clients, including branding, marketing materials, and digital graphics. Developed a strong eye for design and aesthetics that I now apply to UI/UX in my software projects.',
     ],
   ],
 ];
