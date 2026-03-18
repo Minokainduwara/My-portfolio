@@ -14,14 +14,22 @@
 <div class="glow-blob glow-blob-2"></div>
 
 <!-- NAV -->
-<nav>
+<nav id="navbar">
   <div class="nav-logo">&lt;<span>Minoka</span> Induwara&gt;</div>
-  <div class="nav-links">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
+
+  <!-- Hamburger (mobile only) -->
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#home"       onclick="closeNav()">Home</a>
+    <a href="#about"      onclick="closeNav()">About</a>
+    <a href="#skills"     onclick="closeNav()">Skills</a>
+    <a href="#projects"   onclick="closeNav()">Projects</a>
+    <a href="#experience" onclick="closeNav()">Experience</a>
+    <a href="#contact"    onclick="closeNav()">Contact</a>
   </div>
 </nav>
